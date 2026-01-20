@@ -1,83 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>BHAVANA | Cloud Resume</title>
-
-<style>
-body{
-    margin:0;
-    font-family: Arial, sans-serif;
-    background: linear-gradient(120deg,#1d2671,#c33764);
-    color:white;
-    text-align:center;
-}
-
-.container{
-    padding:60px 20px;
-}
-
-h1{
-    font-size:50px;
-    margin-bottom:10px;
-}
-
-h2{
-    margin-top:40px;
-    color:#ffdd57;
-}
-
-p{
-    font-size:18px;
-}
-
-ul{
-    list-style:none;
-    padding:0;
-}
-
-li{
-    margin:10px 0;
-    font-size:17px;
-}
-
-.footer{
-    margin-top:50px;
-    font-size:14px;
-    opacity:0.8;
-}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhavanasri Vijayakumar - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-
 <body>
-<div class="container">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">Bhavanasri Vijayakumar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-<h1>BHAVANASRI</h1>
-<p>ECE Student</p>
-<p>This website is deployed on cloud using GitHub Pages.</p>
+    <!-- About Section -->
+    <section id="about" class="p-5 text-center bg-light">
+        <h1>Hello, I'm Bhavanasri Vijayakumar</h1>
+        <p>ECE undergraduate passionate about learning new technologies, building projects, and exploring software development.</p>
+    </section>
 
-<h2>Skills</h2>
-<ul>
-    <li>C, C++, Java</li>
-    <li>HTML, CSS, GitHub</li>
-    <li>Basic Cloud Concepts</li>
-</ul>
+    <!-- Projects Section -->
+    <section id="projects" class="p-5">
+        <div class="container">
+            <h2 class="mb-4 text-center">Projects</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">AI-Based Electrical Load Pattern Identification</h5>
+                            <p class="card-text">Machine learning model to analyze electrical load patterns and improve energy efficiency predictions.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Learn Buddy – Adaptive Learning Web App</h5>
+                            <p class="card-text">Responsive web app providing personalized learning paths, quizzes, and performance tracking.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Electronic Dice (ESP8266 + Web Trigger)</h5>
+                            <p class="card-text">ESP8266-based dice with automatic random number generation triggered via a web interface.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Expense Tracker Database – MySQL Project</h5>
+                            <p class="card-text">Database-driven expense tracker to manage finances with CRUD operations and reporting.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Line Following Robot</h5>
+                            <p class="card-text">Autonomous robot using sensors for line detection and efficient path-following.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<h2>Projects</h2>
-<ul>
-    <li>Cloud Resume Website</li>
-    <li>Electronic Dice using ESP8266</li>
-    <li>Line Following Robot</li>
-</ul>
+    <!-- Contact Section -->
+    <section id="contact" class="p-5 bg-dark text-white text-center">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:vbhavanasri@gmail.com" class="text-white">vbhavanasri@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com" class="text-white">linkedin.com/in/bhavanasri</a> | GitHub: <a href="https://github.com" class="text-white">github.com/bhavanasri</a></p>
+    </section>
 
-<h2>Contact</h2>
-<p>Email: vbhavanasri@gmail.com</p>
-<p>GitHub: github.com/BHAVANASRI03</p>
-
-<div class="footer">
-    © 2025 | Hosted on GitHub Pages
-</div>
-
-</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
